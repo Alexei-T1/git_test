@@ -1,20 +1,50 @@
-.container {
-    width: 100%;
+
+
+html, body, .container {
+    border: rgb(80, 4, 10) 3px solid;
     height: 100%;
+    background-color: rgb(235, 252, 218);
+ }
+
+.container {
+
 }
+
+
 .top {
-    position: fixed;
-    right: 0;
+    display: flex;
+    padding: 1rem;
+    border: blue 1px solid;
+    align-items: center;
+    justify-content: right;
+    
+    
 }
+.top_links {
+    border: rgb(255, 0, 55) 1px solid;
+    font-size: 13px;
+    margin-right: 1rem;
+
+}
+.top_buttons {
+    border: rgb(43, 255, 0) 1px solid;
+    display: flex;
+    align-items: center;
+}
+
 .middle-container {
-    height: 200px;
-    text-align: center;
-    background-color: DodgerBlue;
+    border: rgb(251, 255, 0) 1px solid;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottom-container {
+    border: blue 1px solid;
     position: fixed;
     bottom: 0;
     background: grey;
-    width: 100%;
+    padding: 1rem;
 }
