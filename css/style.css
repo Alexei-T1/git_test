@@ -13,28 +13,45 @@ html, body, .container {
 
 .top {
     display: flex;
-    padding: 1rem;
+    padding: 0.8rem 1rem;
     border: blue 1px solid;
     align-items: center;
     justify-content: right;
-    
-    
+    font-family: arial,sans-serif;  
 }
 .top_links {
     border: rgb(255, 0, 55) 1px solid;
     font-size: 13px;
-    margin-right: 1rem;
-
+    margin-right: 1.9rem;
+    
 }
+.top_links a:first-child{
+    margin-right: 0.8rem;  
+}
+
 .top_buttons {
     border: rgb(43, 255, 0) 1px solid;
     display: flex;
     align-items: center;
 }
+.icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 0.8rem;
+}
+.button{
+    padding: 9px 23px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    border: 1px solid transparent;
+    background-color:#1a73e8;
+}
+
 
 .middle-container {
     border: rgb(251, 255, 0) 1px solid;
-    height: 100%;
+    height: 80%;
     display:flex;
     flex-direction: column;
     justify-content: center;
