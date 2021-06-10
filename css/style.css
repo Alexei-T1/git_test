@@ -190,7 +190,7 @@ box-shadow: rgba(32, 33, 36, 0.28) 0px 1px 6px 0px
     min-width: 30%;
     order: 3;
 }
-.info, .links {
+.info, .links, .links-teh {
     padding-top: 15px;
 }
 .links a, .links-teh a {
